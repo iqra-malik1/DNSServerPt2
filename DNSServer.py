@@ -74,11 +74,6 @@ dns_records = {
             604800, #expire
             86400, #minimum
         ),
-        dns.rdatatype.A: '192.168.1.102',
-        dns.rdatatype.A: '192.168.1.103',
-        dns.rdatatype.A: '192.168.1.104',
-        dns.rdatatype.A: '192.168.1.105',
-        dns.rdatatype.A: '192.168.1.106',
     },
     'nyu.edu.' : {        
         dns.rdatatype.TXT: (str(encrypted_value)),
