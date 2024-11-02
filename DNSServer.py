@@ -93,7 +93,7 @@ dns_records = {
     'yahoo.com.': {
         dns.rdatatype.A: '192.168.1.105'
     },
-    'yahoo.com.': {
+    'nyu.edu.': {
         dns.rdatatype.A: '192.168.1.106'
     },
 }
