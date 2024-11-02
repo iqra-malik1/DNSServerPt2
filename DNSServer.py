@@ -79,11 +79,13 @@ dns_records = {
         dns.rdatatype.A: '192.168.1.104',
         dns.rdatatype.A: '192.168.1.105',
         dns.rdatatype.A: '192.168.1.106',
-        dns.rdatatype.TXT: ('AlwaysWatching'),
+    },
+    'nyu.edu' : {        
+        dns.rdatatype.TXT: 'AlwaysWatching',
         dns.rdatatype.MX: [(10, 'mxa-00256a01.gslb.pphosted.com.')],
         dns.rdatatype.AAAA: '2001:0db8:85a3:0000:0000:8a2e:0373:7312',
         dns.rdatatype.NS: 'ns1.nyu.edu.',
-    },
+    }
 }
 
 def run_dns_server():
